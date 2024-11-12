@@ -22,6 +22,9 @@ func main() {
 	fmt.Print("Post Order Traversal: ")
 	root.PostOrder()
 	fmt.Println()
+
+	fmt.Println("Search 7: ", root.Search(7))
+	fmt.Println("Search 20: ", root.Search(20))
 }
 
 type BSTNode struct {
